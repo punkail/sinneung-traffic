@@ -91,6 +91,9 @@ if cctv_data:
                 </video>
                 """
                 st.markdown(video_html, unsafe_allow_html=True)
+            
+            # 줄바꿈 추가
+            st.markdown("<br>", unsafe_allow_html=True)
 
 # CSS 스타일 추가
 st.markdown(
